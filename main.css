@@ -1,0 +1,85 @@
+body {
+    font-family: 'Avenir Next'; src: url('/avenir.otf');
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .5)), url(images/header.jpg) no-repeat top center /cover;
+  }
+
+.navbar-nav {
+    font-size: 13px;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(0, 0);
+    text-align: left !important;
+    width: 60%
+  }
+  .banner-lead {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .banner-heading {
+      font-weight: bold;
+  }
+  .banner-par {
+      font-size: 12px;
+  }
+  #sideMenu {
+      height: 80%;
+      font-size: 1rem !important;
+      margin-top: 45px;
+      margin-left: 25px;
+  }
+
+  #sideMenu li {
+      list-style-type: none;
+      margin: 3px 0;
+      font-size: 12px;
+  }
+
+
+  #productsPage {
+      margin-top: 50px !important;
+      margin-left: 20px;
+  }
+
+  .product-card-img {
+      height: 400px;
+      width: 250px;
+      overflow: hidden;
+  }
+
+  .product-card-btn {
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 13px;
+      border-radius: 25px;
+      font-weight: bold;
+  }
+
+
+  .footerDiv {
+      font-size: 12px;
+      background-color: black !important;
+  }
+
+    footer a:link  {
+      color: white !important;
+  }
+
+  footer a:visited  {
+    color: white !important;
+}
+
+  .footer-copyright {
+      font-size: 10px;
+      color:white;
+  }
