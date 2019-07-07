@@ -47,6 +47,7 @@ header {
   #productsPage {
       margin-top: 50px !important;
       margin-left: 20px;
+      width: 100vw;
   }
 
   .product-card-img {
@@ -68,6 +69,7 @@ header {
 
   .footerDiv {
       font-size: 12px;
+      max-width: 100vw !important;
       background-color: black !important;
   }
 
